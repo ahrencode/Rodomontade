@@ -81,14 +81,14 @@ BODY
         <?php print $cf_tagline; ?>
 
         <div id='social'>
-            <a href='<?php print $cf_blog_url; ?>'><img align='left' src='icons/rss.png' alt='Blog' /></a>
-            <a href='https://github.com/<?php print $cf_github_name; ?>'><img align='left' src='icons/github.png' alt='GitHub' /></a>
-            <a href='http://forr.st/-<?php print $cf_forrst_name; ?>'><img align='left' src='icons/forrst.png' alt='Forrst' /></a>
-            <a href='http://ravi.be/'><img align='left' src='icons/tumblr.png' alt='Tumblr' /></a>
-            <a href='http://twitter.com/<?php print $cf_twitter_name; ?>'><img align='left' src='icons/twitter.png' alt='Twitter' /></a>
-            <a href='http://facebook.com/<?php print $cf_facebook_name; ?>'><img align='left' src='icons/facebook.png' alt='Facebook' /></a>
-            <a href='http://flickr.com/photos/<?php print $cf_flickr_name; ?>'><img align='left' src='icons/flickr.png' alt='Flickr' /></a>
-            <a href='http://last.fm/user/<?php print $cf_lastfm_name; ?>'><img align='left' src='icons/last-fm.png' alt='Last FM' /></a>
+            <a href='<?php print $cf_blog_url; ?>'><img align='left' src='badges/rss.png' alt='Blog' /></a>
+            <a href='https://github.com/<?php print $cf_github_name; ?>'><img align='left' src='badges/github.png' alt='GitHub' /></a>
+            <a href='http://forr.st/-<?php print $cf_forrst_name; ?>'><img align='left' src='badges/forrst.png' alt='Forrst' /></a>
+            <a href='http://ravi.be/'><img align='left' src='badges/tumblr.png' alt='Tumblr' /></a>
+            <a href='http://twitter.com/<?php print $cf_twitter_name; ?>'><img align='left' src='badges/twitter.png' alt='Twitter' /></a>
+            <a href='http://facebook.com/<?php print $cf_facebook_name; ?>'><img align='left' src='badges/facebook.png' alt='Facebook' /></a>
+            <a href='http://flickr.com/photos/<?php print $cf_flickr_name; ?>'><img align='left' src='badges/flickr.png' alt='Flickr' /></a>
+            <a href='http://last.fm/user/<?php print $cf_lastfm_name; ?>'><img align='left' src='badges/last-fm.png' alt='Last FM' /></a>
             <div style='clear: both; padding-top: 10px;'>
                 <?php if( isset($cf_small_print) ) : ?>
                     <small><?php print $cf_small_print; ?></small>
