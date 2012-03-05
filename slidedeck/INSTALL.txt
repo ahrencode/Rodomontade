@@ -1,0 +1,70 @@
+=== SlideDeck Lite v.1.x ===
+
+Thank you for downloading a copy of SlideDeck Lite! This file contains both the 
+SlideDeck jQuery JavaScript library as well as the SlideDeck for WordPress 
+plugin. Please use the installation procedures below to install/upgrade the 
+SlideDeck for WordPress plugin.
+
+
+
+== SlideDeck Wordpress Plugin ==
+
+slidedeck-lite-for-wordpress-1.4.1.zip
+
+== INSTALLATION
+1. If you are reading this you have probably already un-zipped the main file 
+you downloaded from SlideDeck.com. If not, please un-zip the main ZIP file you 
+downloaded. Make note of where you have un-zipped this file as you will need 
+to reference that location later in the installation process.
+
+2. Log into your WordPress admin panel and from the "Plugins" menu, click on 
+the "Add New" menu item.
+
+3. Click on the Upload link just beneath the "Install Plugins" title.
+
+4. Under the section titled "Install a plugin in .zip format" click the 
+"Browse" button to browse to the location where you un-zipped the main download 
+file in step 1 and select the slidedeck-lite-for-wordpress-1.3.72.zip file.
+
+5. Click the Install Now button.
+
+6. When the notice comes up that the plugin was installed successfully, click 
+"Activate Plugin" to activate SlideDeck for WordPress
+
+
+== UPGRADING
+1. First thing to do when upgrading is make sure that you have backed up any 
+custom skins you have made or any modified skins in the /skins sub-folder in 
+the SlideDeck for WordPress plugin folder. You can do this via FTP with any 
+FTP client. Just download the contents of the /skins sub-folder to your local 
+computer for re-uploading later.
+
+2. Log into your WordPress admin panel and click on the "Plugins" menu item.
+
+3. Click on the "Deactivate" link for the SlideDeck Lite plugin.
+
+4. Once deactivated, click the "Delete" link for the plugin. Don't worry, you 
+won't loose any SlideDecks by deleting the plugin.
+
+5. Follow the "Installation" instructions listed above to re-install and 
+activate the new version of SlideDeck for WordPress.
+
+6. If you downloaded your backed up skins in step 1, just re-upload them to the 
+/skins sub-folder in the SlideDeck WordPress plugin folder. Please note that 
+sometimes an update may have been done to one of the skins, make sure you check 
+for any differences if you have modified one of the default skins that comes 
+packaged with SlideDeck for WordPress.
+
+
+
+== SlideDeck jQuery JavaScript Library ==
+
+/SlideDeck LITE for jQuery
+
+This folder contains the SlideDeck jQuery JavaScript plugin. View the README.txt 
+file in this folder for more information on how to use and implement. See the 
+example.html file in this folder for an example of the SlideDeck implementation.
+For full documentation with code examples on how to use the jQuery JavaScript
+plugin, please visit http://www.slidedeck.com/support/
+
+

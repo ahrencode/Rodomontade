@@ -1,0 +1,228 @@
+/*--- LESS ----------------------------------------------------------------*/
+
+.bio-block
+{
+    background-color: #eee;
+    border: 2px solid #999;
+}
+
+@myblack: #444;
+@headingfont: Alice, 'Trebuchet MS';
+
+/*--- END LESS ------------------------------------------------------------*/
+
+BODY
+{
+    padding: 30;
+    width: 1100px;
+    margin: auto auto;
+    background-color: #333;
+    /* background for BODY is set in index.php because it is configurable */
+    font-family: Acme, Helvetica, sans-serif;
+    color: @myblack;
+}
+
+A
+{
+    text-decoration: none !important;
+    color: #26a;
+}
+
+SMALL
+{
+    font-size: 14px;
+}
+
+H2
+{
+    font-size: 20px;
+    color: #b20;
+}
+
+.heading
+{
+    font-family: @headingfont;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#biobox
+{
+    position: relative;
+    z-index: 5;
+    float: left;
+    clear: right;
+    margin: 40px 20px 0px -30px;
+    z-index: 50000;
+    padding: 25px 50px;
+    border-right: 20px solid #ec0;
+    border-left: 20px solid #ec0;
+    background-color: #111;
+    font-size: 18px;
+    color: #29c;
+    -webkit-transform:rotate(-10deg);
+    -moz-transform:rotate(-20deg);
+    -o-transform:rotate(-20deg);
+    -ms-transform:rotate(-20deg);
+}
+
+.trans80
+{
+    /* opacity without inheritance, see: http://l.ravi.be/yvw5DF */
+	background: rgb(0, 0, 0);           /* Fallback for web browsers that doesn't support RGBa */
+	background: rgba(0, 0, 0, 0.80) !important;    /* RGBa with opacity */
+	/* For IE 5.5 - 7*/
+    /* confuses LESS!
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    */
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.trans60
+{
+    /* opacity without inheritance, see: http://l.ravi.be/yvw5DF */
+	background: rgb(0, 0, 0);           /* Fallback for web browsers that doesn't support RGBa */
+	background: rgba(0, 0, 0, 0.60) !important;    /* RGBa with opacity */
+	/* For IE 5.5 - 7*/
+    /* confuses LESS!
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    */
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+#name
+{
+    margin-bottom: 0px;
+    font-size: 32pt;
+    color: #f52;
+}
+
+#social
+{
+    margin-top: 15px;
+}
+
+#portfolio
+{
+    float: left;
+    width: 550px;
+    height: 650px;
+    margin: auto auto;
+    padding: 30px;
+    padding-bottom: 50px; /* adding here rather than margin to slidedeck,
+                             which is styled by the plugin */
+    border: 0px solid #b20;
+    border-width: 20px 0px;
+    background-color: #111;
+    font-size: 14px;
+}
+
+#portfolio .heading
+{
+    padding: 10px 25px 13px 25px;
+    background-color: #fff;
+    color: @myblack;
+    border-bottom: 10px solid #303030;
+    /*border: 5px solid #fff;*/
+    font-size: 32px;
+}
+
+.heading A
+{
+}
+
+#slidedeckwrap
+{
+}
+
+.slidedeck
+{
+    height: 580px !important;
+    color: @myblack;
+    line-height: 150%;
+}
+
+.slidedeck A:hover
+{
+    background-color: #fe0;
+}
+
+.active
+{
+    overflow-y: auto !important;
+}
+
+.slidedeck IMG
+{
+    padding: 8px;
+    .bio-block;
+}
+
+#blahgs
+{
+    width: 100%;
+}
+
+#blahgs TD
+{
+    width: 50%;
+    padding: 15px 5px;
+    text-align: center;
+    vertical-align: middle;
+    .bio-block;
+}
+
+#blahgs IMG
+{
+    display: block;
+    clear: both;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 8px;
+    padding: 0px;
+    border: none;
+}
+
+#friends
+{
+    padding: 10px;
+}
+
+#doodles IMG,
+#friends IMG
+{
+    float: left;
+    height: 64px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#doodles IMG
+{
+    height: 164;
+}
+
+#tweetbox
+{
+    margin-left: 60px;
+    margin-top: 50px;
+    float: left;
+    padding: 10px;
+}
+
+#credits
+{
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    color: #fe0;
+}
+
+#credits A
+{
+    color: #8df;
+}
+
