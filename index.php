@@ -44,7 +44,7 @@ BODY
     <div id='portfolio' class="skin-slidedeck trans60">
 
         <div id='name' class='heading'>
-            My Stuffs
+            My Stuff
             <a href='http://www.youtube.com/watch?v=MvgN5gCuLac'><sup>*</sup></a>...
         </div>
 
