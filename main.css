@@ -38,8 +38,8 @@ H2 {
   margin: 40px 20px 0px -30px;
   z-index: 50000;
   padding: 25px 50px;
-  border-right: 20px solid #ec0;
-  border-left: 20px solid #ec0;
+  border-right: 20px solid #eecc00;
+  border-left: 20px solid #eecc00;
   background-color: #111;
   font-size: 18px;
   color: #29c;
@@ -110,18 +110,20 @@ H2 {
   font-size: 14px;
 }
 #portfolio .heading {
-  padding: 10px 25px 13px 25px;
-  background-color: #fff;
-  color: #444444;
-  border-bottom: 10px solid #303030;
-  /*border: 5px solid #fff;*/
-
+  padding: 0px 25px 20px 0px;
+  color: #ddd;
   font-size: 32px;
+}
+.prefix {
+  color: #eecc00;
+  padding-right: 10px;
 }
 .slidedeck {
   height: 580px !important;
   color: #444444;
   line-height: 150%;
+  border-top: 10px solid #999;
+  border-bottom: 10px solid #999;
 }
 .slidedeck A:hover {
   background-color: #fe0;

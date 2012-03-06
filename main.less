@@ -7,6 +7,8 @@
 }
 
 @myblack: #444;
+@myyellow: #ec0;
+
 @headingfont: Alice, 'Trebuchet MS';
 
 /*--- END LESS ------------------------------------------------------------*/
@@ -55,8 +57,8 @@ H2
     margin: 40px 20px 0px -30px;
     z-index: 50000;
     padding: 25px 50px;
-    border-right: 20px solid #ec0;
-    border-left: 20px solid #ec0;
+    border-right: 20px solid @myyellow;
+    border-left: 20px solid @myyellow;
     background-color: #111;
     font-size: 18px;
     color: #29c;
@@ -121,16 +123,15 @@ H2
 
 #portfolio .heading
 {
-    padding: 10px 25px 13px 25px;
-    background-color: #fff;
-    color: @myblack;
-    border-bottom: 10px solid #303030;
-    /*border: 5px solid #fff;*/
+    padding: 0px 25px 20px 0px;
+    color: #ddd;
     font-size: 32px;
 }
 
-.heading A
+.prefix
 {
+    color: @myyellow;
+    padding-right: 10px;
 }
 
 #slidedeckwrap
@@ -142,6 +143,8 @@ H2
     height: 580px !important;
     color: @myblack;
     line-height: 150%;
+    border-top: 10px solid #999;
+    border-bottom: 10px solid #999;
 }
 
 .slidedeck A:hover

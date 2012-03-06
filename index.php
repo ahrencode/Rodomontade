@@ -44,19 +44,21 @@ BODY
     <div id='portfolio' class="skin-slidedeck trans60">
 
         <div id='name' class='heading'>
-            My Stuff
+            <span class='prefix'>&curren;</span> My Stuff
             <a href='http://www.youtube.com/watch?v=MvgN5gCuLac'><sup>*</sup></a>...
         </div>
 
         <dl class="slidedeck">
 
             <?php
-                foreach( @scandir("sections") as $section )
-                {
-                    if( preg_match("/^\./", $section) )
-                        continue;
-                    include_once("sections/$section");
-                }
+                $sections = @scandir("sections");
+                if( is_array($sections) )
+                    foreach( $sections as $section )
+                    {
+                        if( preg_match("/^\./", $section) )
+                            continue;
+                        include_once("sections/$section");
+                    }
             ?>
 
         </dl>

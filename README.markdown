@@ -12,7 +12,11 @@ To use this template, you need:
 1. Copy all files in this distro to your site
 1. Configure some simple values in the file `config.php`
 1. Create sections (slides) describing your life and activities
-   in the directory `sections` under your installation
+   in the directory `sections` under your installation.
+   Each section should be wrapped in `DT`, `DD` tags. See
+   [DL](https://developer.mozilla.org/en/HTML/Element/dl) for
+   syntax and information. There are some sample section files
+   included that you can modify/delete/copy.
 1. <span style='color: #280;'>OPTIONAL</span>:
 1  Add any CSS customisations in `custom.css`
 1. <span style='color: #280;'>OPTIONAL</span>:
