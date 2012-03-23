@@ -30,6 +30,6 @@ $cf_background_img  = "random";
 // $cf_background_img = "bg/tomatoes.jpg";
 
 // want an embedded box of your tweets? enter twitter username
-$cf_tweet_user      = "johndoetwitter2";
+$cf_tweet_user      = "ahrencode";
 
 ?>
